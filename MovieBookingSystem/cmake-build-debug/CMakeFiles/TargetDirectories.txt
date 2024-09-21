@@ -1,0 +1,3 @@
+/home/zobin/CLionProjects/Patterns/MovieBookingSystem/cmake-build-debug/CMakeFiles/MovieBookingSystem.dir
+/home/zobin/CLionProjects/Patterns/MovieBookingSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zobin/CLionProjects/Patterns/MovieBookingSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

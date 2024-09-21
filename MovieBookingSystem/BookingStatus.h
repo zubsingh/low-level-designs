@@ -1,0 +1,20 @@
+//
+// Created by zobin on 9/21/24.
+//
+
+#ifndef BOOKINGSTATUS_H
+#define BOOKINGSTATUS_H
+
+enum class BookingStatus {
+    SUCCESS,
+    NO_SEATS_AVAILABLE,
+    MOVIE_NOT_FOUND,
+    LOCATION_NOT_FOUND,
+    THEATRE_NOT_FOUND,
+    HALL_NOT_FOUND,
+    SHOWTIME_NOT_FOUND,
+    SEAT_ALREADY_BOOKED,
+    INVALID_SEAT_NUMBER
+};
+
+#endif //BOOKINGSTATUS_H

@@ -16,7 +16,12 @@
 class Seats : public SeatInterface{
     int totalSeats;
     std::vector<bool> seatAvailability; // true if booked
-    std::mutex seatsMutex;
+    //std::mutex seatsMutex;
+    std::vector<std::mutex> seatLocks;   // One mutex per seat
+
+    // Seat-Level Locking (Fine-Grained Locking)
+    // You can introduce a lock for each seat, so when a user tries to book a seat, only that specific seat is locked.
+    // This minimizes contention between threads that are trying to book different seats.
 
 public:
     Seats(int totalSeats);
